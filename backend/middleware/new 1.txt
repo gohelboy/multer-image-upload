@@ -1,0 +1,12 @@
+table create:
+CREATE TABLE `test`.`customer` (`customer_id` INT NOT NULL , `first_name` VARCHAR(200) NOT NULL , `last_name` VARCHAR(200) NOT NULL , `favourite_website` VARCHAR(300) NOT NULL , PRIMARY KEY (`customer_id`)) ENGINE = InnoDB;
+
+
+insert 
+INSERT INTO `customer` (`customer_id`, `first_name`, `last_name`, `favourite_website`) VALUES ('4000', 'joe', 'jackson', 'techonthenet.com'), ('5000', 'jane', 'smith', 'digminecraft.com'), ('6000', 'samantha', 'ferguson', 'bigactivities.com'), ('7000', 'allen', 'raynolds', 'checkyourmath.com')
+
+
+SELECT customer.first_name, orders.order_date
+from customer
+JOIN orders
+ON customer.customer_id = orders.customer_id

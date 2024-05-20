@@ -1,0 +1,9 @@
+@all
+Good Morning
+
+I am in for the day
+
+I will work on following tasks today [10/03/2023]:
+	-> Structure code
+	-> Continue in tsp_12
+	-> change code based on database modification

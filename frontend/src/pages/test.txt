@@ -1,0 +1,7 @@
+queries:
+	1 : SELECT `name`, `manager` FROM `employee` WHERE `name`="jones";
+	2 : SELECT employee.name, employee.salary, grade_salary.high_salary FROM employee JOIN grade_salary ON employee.salary = grade_salary.high_salary;
+	6 : SELECT employee.name, employee.role, employee.manager from employee
+	7 : SELECT * FROM employee WHERE employee.id % 2
+	5 : SELECT * FROM employee ORDER BY employee.salary DESC LIMIT 5
+	
